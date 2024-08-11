@@ -1,0 +1,24 @@
+Overview
+    -This is a web-based Tic-Tac-Toe game with a backend built using Express.js and SQLite. The game allows players to compete against an AI, and includes a leaderboard to track player statistics.
+Prerequisites
+    -Node version 17+.
+Steps to Run Code in Local
+    -git should be installed in you system.
+    -open git bash in you desired folder and run the below command.
+    -git clone https://github.com/PiyushK24/Vayve-Mobility-Assessment.git .
+    -navigate to the cloned folder.
+    -open the folder in VS code by "shift + right click" and select "open in vs code".
+    -now open a new terminal in VS code by pressing " ctrl + shift + ` ".
+    -now in the terminal run "npm install" to install the "node_modules" folder this step will take few seconds.
+    -now run "npm run dev" to start the server as I have used nodegen to fetech live updated from the code.
+File Strucuture
+  backend/
+    app.js - Main application file for the backend.
+    database.js - Database connection and setup.
+    routes.js - API routes for handling game logic and leaderboard.
+  frontend/
+    index.html - Main HTML file for the application interface.
+    style.css - CSS file for styling the application.
+    script.js - JavaScript file for frontend logic.
+  package.json - Dependency and script configuration for the project.
+  tic-tac-toe.db - Database file.
